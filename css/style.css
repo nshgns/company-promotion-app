@@ -1,0 +1,117 @@
+.resimSlider {
+  height: 700px;
+}
+body {
+  padding-top: 55px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+.divider {
+  border: none;
+  border-top: 3px solid #343a48;
+  max-width: 250px;
+  margin: 25px auto;
+}
+
+.leaf-icon {
+  text-align: center;
+  margin-top: -3px;
+}
+.Hakkimizda {
+  background-color: white;
+}
+.gri {
+  color: #343a48;
+  position: relative;
+  top: -38px;
+  border: 2px solid white;
+  background-color: white;
+}
+.Ekibimiz {
+  background-color: #f2f2f2;
+}
+
+.beyaz {
+  color: #343a48;
+  position: relative;
+  top: -38px;
+  border: 2px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+
+.ekipCard > img:hover {
+  opacity: 1;
+}
+
+.Galeri {
+  background-color: white;
+}
+.figure:hover {
+  opacity: 0.8;
+}
+.İletisim {
+  background-color: #f2f2f2;
+}
+
+#details {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#personDetail {
+  flex: 1;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.person-detail {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.detail-img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.detail-name {
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.detail-info p {
+  margin-bottom: 15px;
+  line-height: 1.7;
+  color: #444;
+}
+
+.btn-top {
+  margin-top: 20px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+}
+.galeri-box {
+    aspect-ratio: 1 / 1; /* kare */
+    overflow: hidden;
+}
+
+.galeri-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
